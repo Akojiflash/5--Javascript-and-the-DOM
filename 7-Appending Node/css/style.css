@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#myHeading{
+    margin-top: 50px;
+    margin-left: 50px;
+    color: rgb(37, 37, 37);
+}
+p{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 16px;
+}
+hr{
+    margin-top: 20px;
+    border: dashed 1px ;
+}
+button{
+    background-color: aqua !important;
+}
+button , .description, .addItemInput{
+    margin: 20px 20px;
+    padding: 10px;
+    border: none;
+    
+    border-radius: 7px;
+    /* color: white; */
+    box-shadow: 6px 3px black;
+}
+p.description{
+    border-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.description, .addItemInput{
+    font-size: 16px;
+    padding: 10px;
+    margin-right: 0;
+    background-color: white;
+    box-shadow: none;
+    border: 1px solid black;
+    
+}
+ul{
+    
+    margin-top: 30px;
+    margin-left: 50px ;
+}
+ul>li{
+    /* margin-left: 50px; */
+    position: relative;
+    font-weight: medium;
+    padding: 10px;
+    font-size: 16pt;
+    color: gray;
+    text-decoration: none;
+    list-style-type: none;
+}

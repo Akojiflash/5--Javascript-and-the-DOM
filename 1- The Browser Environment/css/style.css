@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#myHeading{
+    margin-top: 50px;
+    margin-left: 50px;
+    color: rgb(37, 37, 37);
+}
+p{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 16px;
+}
+hr{
+    margin-top: 20px;
+    border: dashed 1px ;
+}
+.myButton , #myTextInput{
+    margin: 50px 20px;
+    padding: 10px;
+    border: none;
+    background-color: aqua;
+    border-radius: 7px;
+    /* color: white; */
+    box-shadow: 6px 3px black;
+}
+
+#myTextInput{
+    font-size: 16px;
+    padding: 10px;
+    margin-right: 0;
+    background-color: white;
+    box-shadow: none;
+    border: 1px solid black;
+    
+}
+
+
+ ul{
+    
+    margin-top: 30px;
+    margin-left: 50px ;
+}
+ul li{
+    margin-left: 50px;
+    position: relative;
+    font-weight: medium;
+    padding: 10px;
+    font-size: 16pt;
+    color: gray;
+}

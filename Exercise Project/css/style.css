@@ -1,0 +1,42 @@
+:root{
+    font-size: 16px;
+    font-family: 'roboto', sans-serif;
+}
+.header{
+    width: 40rem;
+    height: 14rem;
+    background-color: lightgray;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 2rem;
+    box-shadow: 6px 2px black;
+    display: flex;
+    flex-direction: column;
+   
+}
+h1{
+    margin-top: 3rem;
+    position: relative;
+
+}
+button{
+    font-size: 16px;
+    padding: 1.02rem;
+    width: fit-content;
+    margin-left: 8rem;
+    background-color: rgb(18, 177, 240);
+    color: white;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+}
+td{
+    margin: 0;
+    border: 0.25rem solid rgb(63, 22, 22);
+    padding: 2rem;
+   
+}
+table{
+    margin: 20px auto;
+    border-collapse: collapse;
+
+}
